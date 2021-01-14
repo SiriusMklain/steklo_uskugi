@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="ru">
 
 <head>
    
@@ -10,17 +10,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
     <!--====== Title ======-->
-    <title>Indutri - For Industry & Factory Business HTML Template</title>
+    <title>Доставка</title>
     
     <!--====== Favicon Icon ======-->
     <link rel="shortcut icon" href="assets/images/favicon.png" type="image/png">
 
     <!--====== Bootstrap css ======-->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    
+
     <!--====== Fontawesome css ======-->
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
-    
+    <script src="https://kit.fontawesome.com/89ceaa8d93.js" crossorigin="anonymous"></script>
+
     <!--====== flaticon css ======-->
     <link rel="stylesheet" href="assets/css/flaticon.css">
     
@@ -98,6 +99,10 @@
                                 <li class="menu-item-has-children active">
                                     <a href="contact.html">Контакты</a>
                                 </li>
+                                <li class="menu-item-has-children active">
+                                    <a href="personal_area.html">Личный кабинет</a>
+                                </li>
+
                             </ul>
                         </div>
                         <div class="offcanvas_footer">
@@ -174,6 +179,10 @@
                                             <a href="posts.html">Вопросы</a>
                                         </li>
                                         <li><a href="contact.html">Контакты</a></li>
+                                        <li class="personal_area">
+                                            <a class="" href="personal_area.html">Личный кабинет</a>
+                                        </li>
+
                                     </ul>
                                 </div>
                             </div>
@@ -193,18 +202,18 @@
 
     <!--====== PAGE TITLE PART START ======-->
     
-    <div class="page-title-area bg_cover pt-120" style="background-image: url(assets/images/page-bg.jpg);">
+    <div class="page-title-area bg_cover pt-120" style="background-image: url(assets/images/banner-bg-3.jpg);">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="page-title-item text-center">
                         <nav aria-label="breadcrumb">
-                            <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">Services</li>
-                            </ol>
+<!--                            <ol class="breadcrumb">-->
+<!--                                <li class="breadcrumb-item"><a href="index.html">Home</a></li>-->
+<!--                                <li class="breadcrumb-item active" aria-current="page">Services</li>-->
+<!--                            </ol>-->
                         </nav>
-                        <h3 class="title">Services</h3>
+                        <h3 class="title">Доставка</h3>
                     </div>
                 </div>
             </div>
@@ -217,129 +226,356 @@
     <!--====== PAGE TITLE PART ENDS ======-->
 
     <!--====== INDUSTRI PRICE PART START ======-->
-    
-    <div class="tabs-container">
-        <ul class="tabs">
-            <li class="active"><a href="">На стандартном фургоне</a></li>
-            <li><a href="">На удлиненном фургоне</a></li>
-            <li><a href="">Доставка на манипуляторе</a></li>
-        </ul>
-        <div class="tabs-content">
-            <div class="tabs-panel active" data-index="0">
-                <!--content her-->
+    <div class="o-container">
+        <h1 class="o-header__title">ПРАЙС - ЛИСТ</h1>
+    </div>
+    <main class="o-main">
+        <div class="o-container">
+
+            <div class="o-section">
+                <div id="tabs" class="c-tabs no-js">
+                    <div class="c-tabs-nav">
+                        <a href="#" class="c-tabs-nav__link is-active">
+                            <i class="fas fa-shuttle-van"></i>
+                            <span>На стандартном Фургоне</span>
+                        </a>
+                        <a href="#" class="c-tabs-nav__link">
+                            <i class="fas fa-truck-moving"></i>
+                            <span>На Удлиненном Фургоне</span>
+                        </a>
+                        <a href="#" class="c-tabs-nav__link">
+                            <i class="fas fa-truck-loading"></i>
+                            <span>Доставка на манипуляторе</span>
+                        </a>
+                        <a href="#" class="c-tabs-nav__link">
+                            <i class="fas fa-info"></i>
+                            <span>Дополнительные услуги</span>
+                        </a>
+
+                        <!--                                                <a href="#" class="c-tabs-nav__link">-->
+<!--                                                    <i class="fa fa-cog"></i>-->
+<!--                                                    <span>Settings</span>-->
+<!--                                                </a>-->
+                    </div>
+                    <div class="c-tab is-active">
+                        <div class="c-tab__content">
+                            <h4>На стандартном Фургоне</h4>
+                            <table class="simple-little-table" cellspacing='0'>
+                                <tr>
+                                    <th>Услуга</th>
+                                    <th>ЭКОНОМ (дата и время назначается в порядке очереди)</th>
+                                    <th>СТАНДАРТ (назначенный клиентом день)</th>
+                                    <th>ПРИОРИТИ (назначенный клиентом день и час + 15 минут)2</th>
+                                </tr><!-- Table Header -->
+
+                                <tr>
+                                    <td>Доставка изделий (в пределах МКАД) до подъезда</td>
+                                    <td>2 000 р</td>
+                                    <td>4 000 р</td>
+                                    <td>6 000 р</td>
+                                </tr><!-- Table Row -->
+
+                                <tr>
+                                    <td>Доставка (в пределах малого бетонного кольца) до подъезда</td>
+                                    <td>4 000 р</td>
+                                    <td>8 000 р</td>
+                                    <td>12 000 р</td>
+                                </tr><!-- Darker Table Row -->
+
+                                <tr>
+                                    <td>Доставка (в пределах большого бетонного кольца) до подъезда</td>
+                                    <td>8 000 р</td>
+                                    <td>16 000 р</td>
+                                    <td>24 000 р</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Доставка УФ-конструкций (в пределах МКАД) до подъезда</td>
+                                    <td>4 000 р</td>
+                                    <td>8 000 р</td>
+                                    <td>12 000 р</td>
+                                </tr>
+
+                                <!--                                <tr>-->
+                                <!--                                    <td><a href="blog.harrix.org">Гиперссылка</a></td>-->
+                                <!--                                    <td>80%</td>-->
+                                <!--                                    <td><a href="blog.harrix.org">Да</a></td>-->
+                                <!--                                </tr>-->
+                            </table>
+                            
+                            <ol>
+                                <ul>• - Указанные цены действительны при весе груза не более 50 кг, далее + 50 руб. за каждый кг.</ul>
+                                <ul>• - В нашем автопарке представлены автомобили с различными характеристиками грузоподъемности и габаритов перевозимого груза:</ul>
+                                <ul>• - Стандартный фургон с максимальной грузоподъемностью 500 кг (с мягкой подвеской и траверсами для безопасной перевозки стекла)). Максимальные Габариты изделий 2500 мм х1500 мм.</ul>
+                                <ul>• - Удлиненный высокий фургон повышенной грузоподъемности - максимальная грузоподъемность 1000 кг. Mаксимальные габариты изделий 3500 мм х 2000 мм.</ul>
+                                <ul>• - Специализированный Манипулятор с мягкой подвеской – максимальная  грузоподъемность 4000 кг. Максимальные габариты изделий 6000 мм х 3000 мм (6 м х 3 м).</ul>
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="c-tab">
+                        <div class="c-tab__content">
+                            <h4>На Удлиненном Фургоне</h4>
+                            <table class="simple-little-table" cellspacing='0'>
+                                <tr>
+                                    <th>Услуга</th>
+                                    <th>ЭКОНОМ (дата и время назначается в порядке очереди)</th>
+                                    <th>СТАНДАРТ (назначенный клиентом день)</th>
+                                    <th>ПРИОРИТИ (назначенный клиентом день и час + 15 минут)2</th>
+                                </tr><!-- Table Header -->
+
+                                <tr>
+                                    <td>Доставка изделий (в пределах МКАД) до подъезда</td>
+                                    <td>4 000 руб</td>
+                                    <td>8 000 руб</td>
+                                    <td>12 000 руб</td>
+                                </tr><!-- Table Row -->
+
+                                <tr>
+                                    <td>Доставка (в пределах малого бетонного кольца) до подъезда</td>
+                                    <td>8 000 руб</td>
+                                    <td>16 000 руб</td>
+                                    <td>24 000 руб</td>
+                                </tr><!-- Darker Table Row -->
+
+                                <tr>
+                                    <td>Доставка (в пределах большого бетонного кольца) до подъезда</td>
+                                    <td>16 000 руб</td>
+                                    <td>32 000 руб</td>
+                                    <td>48 000 руб</td>
+                                </tr>
+
+                                <!--                                <tr>-->
+                                <!--                                    <td><a href="blog.harrix.org">Гиперссылка</a></td>-->
+                                <!--                                    <td>80%</td>-->
+                                <!--                                    <td><a href="blog.harrix.org">Да</a></td>-->
+                                <!--                                </tr>-->
+                            </table>
+
+                            <ol>
+                                <ul>• - Указанные цены действительны при весе груза не более 50 кг, далее + 50 руб. за каждый кг.</ul>
+                                <ul>• - В нашем автопарке представлены автомобили с различными характеристиками грузоподъемности и габаритов перевозимого груза:</ul>
+                                <ul>• - Стандартный фургон с максимальной грузоподъемностью 500 кг (с мягкой подвеской и траверсами для безопасной перевозки стекла)). Максимальные Габариты изделий 2500 мм х1500 мм.</ul>
+                                <ul>• - Удлиненный высокий фургон повышенной грузоподъемности - максимальная грузоподъемность 1000 кг. Mаксимальные габариты изделий 3500 мм х 2000 мм.</ul>
+                                <ul>• - Специализированный Манипулятор с мягкой подвеской – максимальная  грузоподъемность 4000 кг. Максимальные габариты изделий 6000 мм х 3000 мм (6 м х 3 м).</ul>
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="c-tab">
+                        <div class="c-tab__content">
+                            <h4>Доставка на манипуляторе</h4>
+                            <table class="simple-little-table" cellspacing='0'>
+                                <tr>
+                                    <th>Услуга</th>
+                                    <th>ЭКОНОМ (дата и время назначается в порядке очереди)</th>
+                                    <th>СТАНДАРТ (назначенный клиентом день)</th>
+                                    <th>ПРИОРИТИ (назначенный клиентом день и час + 15 минут)2</th>
+                                </tr><!-- Table Header -->
+
+                                <tr>
+                                    <td>Доставка изделий (в пределах МКАД) до подъезда</td>
+                                    <td>6 000 руб</td>
+                                    <td>12 000 руб</td>
+                                    <td>18 000 руб</td>
+                                </tr><!-- Table Row -->
+
+                                <tr>
+                                    <td>Доставка (в пределах малого бетонного кольца) до подъезда</td>
+                                    <td>12 000 руб</td>
+                                    <td>24 000 руб</td>
+                                    <td>36 000 руб</td>
+                                </tr><!-- Darker Table Row -->
+
+                                <tr>
+                                    <td>Доставка (в пределах большого бетонного кольца) до подъезда</td>
+                                    <td>24 000 руб</td>
+                                    <td>48 000 руб</td>
+                                    <td>72 000 руб</td>
+                                </tr>
+
+                                <!--                                <tr>-->
+                                <!--                                    <td><a href="blog.harrix.org">Гиперссылка</a></td>-->
+                                <!--                                    <td>80%</td>-->
+                                <!--                                    <td><a href="blog.harrix.org">Да</a></td>-->
+                                <!--                                </tr>-->
+                            </table>
+
+                            <ol>
+                                <ul>• - Указанные цены действительны при весе груза не более 50 кг, далее + 50 руб. за каждый кг.</ul>
+                                <ul>• - В нашем автопарке представлены автомобили с различными характеристиками грузоподъемности и габаритов перевозимого груза:</ul>
+                                <ul>• - Стандартный фургон с максимальной грузоподъемностью 500 кг (с мягкой подвеской и траверсами для безопасной перевозки стекла)). Максимальные Габариты изделий 2500 мм х1500 мм.</ul>
+                                <ul>• - Удлиненный высокий фургон повышенной грузоподъемности - максимальная грузоподъемность 1000 кг. Mаксимальные габариты изделий 3500 мм х 2000 мм.</ul>
+                                <ul>• - Специализированный Манипулятор с мягкой подвеской – максимальная  грузоподъемность 4000 кг. Максимальные габариты изделий 6000 мм х 3000 мм (6 м х 3 м).</ul>
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="c-tab">
+                        <div class="c-tab__content">
+                            <h4>Дополнительные услуги</h4>
+                            <table class="simple-little-table" cellspacing='0'>
+
+                                <tr>
+                                    <th>Услуга</th>
+                                    <th>ЦЕНА</th>
+                                </tr><!-- Table Header -->
+                                <tr>
+                                    <td>Подъем на этаж на лифте/за 1 изделие</td>
+                                    <td colspan="4">1 000 руб</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Подъем на этаж вручную/за 1 изделие</td>
+                                    <td colspan="4">500 руб/этаж</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Доставка далее большого бетонного кольца (доставка в пределах ББК (8000 руб) + за каждый километр от ББК)</td>
+                                    <td colspan="4">60 руб/км</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Погрузо-разгрузочные работы за каждые 100 метров от места выгрузки до места монтажа</td>
+                                    <td colspan="4">1000 руб/штука¹</td>
+                                </tr>
+
+                                <!--                                <tr>-->
+                                <!--                                    <td><a href="blog.harrix.org">Гиперссылка</a></td>-->
+                                <!--                                    <td>80%</td>-->
+                                <!--                                    <td><a href="blog.harrix.org">Да</a></td>-->
+                                <!--                                </tr>-->
+                            </table>
+
+                            <ol>
+                                <ul>• - Указанные цены действительны при весе груза не более 50 кг, далее + 50 руб. за каждый кг.</ul>
+                                <ul>• - В нашем автопарке представлены автомобили с различными характеристиками грузоподъемности и габаритов перевозимого груза:</ul>
+                                <ul>• - Стандартный фургон с максимальной грузоподъемностью 500 кг (с мягкой подвеской и траверсами для безопасной перевозки стекла)). Максимальные Габариты изделий 2500 мм х1500 мм.</ul>
+                                <ul>• - Удлиненный высокий фургон повышенной грузоподъемности - максимальная грузоподъемность 1000 кг. Mаксимальные габариты изделий 3500 мм х 2000 мм.</ul>
+                                <ul>• - Специализированный Манипулятор с мягкой подвеской – максимальная  грузоподъемность 4000 кг. Максимальные габариты изделий 6000 мм х 3000 мм (6 м х 3 м).</ul>
+                            </ol>
+                        </div>
+                    </div>
+
+                </div>
             </div>
-            <div class="tabs-panel" data-index="1">
-                <!--content here-->
-            </div>
-            <div class="tabs-panel" data-index="2">
-                <!--content here-->
+
+            <div class="o-section">
+                <div id="github-icons"></div>
             </div>
         </div>
-    </div>
+    </main>
 
     <!--====== INDUSTRI PRICE PART ENDS ======-->
 
 
 
     <!--====== INDUSTRI SERVICES PART START ======-->
-    
-    <section class="industri-services-area services-page">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-4 col-md-6 col-sm-9">
-                    <div class="services-item mt-30">
-                        <div class="services-thumb">
-                            <img src="assets/images/services-5.jpg" alt="">
-                            <div class="icon">
-                                <i class="flaticon-under-construction"></i>
-                            </div>
-                        </div>
-                        <div class="services-content">
-                            <h4 class="title">Petrol and Gas</h4>
-                            <p>There are many variations of passages of available but the have alteration in not avein that some form by injected.</p>
-                            <a href="single-service.html">Read More</a>
+
+    <div class="o-container">
+        <h1 class="o-header__title">ПРАВИЛА ТРАНСПОРТИРОВКИ</h1>
+    </div>
+
+    <main class="o-main">
+        <div class="o-container">
+
+            <div class="o-section">
+                <div id="tab" class="c-tabs no-js">
+                    <div class="c-tabs-nav">
+                        <a href="#" class="c-tabs-nav__link is-active">
+                            <i class="fas fa-question"></i>
+                            <span>Правила транспортировки крупногабаритных изделий</span>
+                        </a>
+                        <a href="#" class="c-tabs-nav__link">
+                            <i class="fas fa-cog"></i>
+                            <span>Правила транспортировки УФ- конструкций</span>
+                        </a>
+                        <a href="#" class="c-tabs-nav__link">
+                            <i class="fas fa-file-signature"></i>
+                            <span>Договор доставки</span>
+                        </a>
+                        <!--                        <a href="#" class="c-tabs-nav__link">-->
+                        <!--                            <i class="fa fa-cog"></i>-->
+                        <!--                            <span>Settings</span>-->
+                        <!--                        </a>-->
+                    </div>
+                    <div class="c-tab is-active">
+                        <div class="c-tab__content">
+                            <h4>Правила транспортировки крупногабаритных изделий</h4>
+                            <br>
+                            <p>Рекомендуем учесть при заказе крупногабаритных изделий:</p><br>
+                            <ol>
+                                <li>• - Возможность парковки автомобиля у места разгрузки не далее 10 метров.</li>
+                                <li>• - Габаритные размеры (ширина, длина, высота) холла.*</li>
+                                <li>• - Габаритные размеры (ширина, длина, высота) лестничного марша и межэтажных площадок.*</li>
+                                <li>• - При наличии грузового лифта возможность подъема на нем изделия.**</li>
+                                <li>• - Габаритные размеры (ширина, длина, высота) тамбура перед дверным проемом и дверного проема. ***</li>
+                                <li>• - Возможность заноса изделия и его позиционирования относительно плоскости монтажа:</li>
+                            </ol>
+                            <br>
+                            <ol>
+                                <ul>
+                                    Высота и ширина дверных проемов ***
+                                    <li>
+                                        <ul>• -  Габаритные размеры (ширина, длина, высота) коридора *</ul>
+                                        <ul>• -  Габаритные размеры (ширина, длина, высота) помещения, в котором планируется произвести монтажные работы</ul>
+                                        <ul>• -  * Стороны открывания дверей для возможности проноса и разворота изделия.</ul>
+                                    </li>
+                                </ul>
+                            </ol>
+                            <br>
+                            <ol>
+                                <ul>• -  *Длина большей диагонали изделия не должна превышать высоту потолка и должна быть менее высоты потолка на 400 мм</ul>
+                                <ul>• -  **Максимально возможный размер поднимаемого на грузовом лифте изделия 2000х1600 мм</ul>
+                                <ul>• -  ***Длина короткой стороны изделия не должна превышать длину диагонали дверного проема и должна быть меньше на 200 мм</ul>
+                            </ol>
+                            <br>
+                            <ol>
+                                <ul>
+                                    <sup>1</sup> за 1 штуку принимается 1 изделие, упаковка, ящик, контейнер и тп. весом не более 20 кг.
+                                </ul>
+                                <br>
+                                <ul>
+                                    <sup>2</sup> для категории ПРИОРИТИ – при условии соблюдения клиентом п. 1.4 договора на доставку/монтаж (обеспечение и оплата парковочного
+                                    места для автотранспорта Исполнителя).
+                                </ul>
+                            </ol>
+                            <br>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-9">
-                    <div class="services-item mt-30">
-                        <div class="services-thumb">
-                            <img src="assets/images/services-6.jpg" alt="">
-                            <div class="icon">
-                                <i class="flaticon-industry"></i>
-                            </div>
-                        </div>
-                        <div class="services-content">
-                            <h4 class="title">Factory construction</h4>
-                            <p>There are many variations of passages of available but the have alteration in not avein that some form by injected.</p>
-                            <a href="single-service.html">Read More</a>
+                    <div class="c-tab">
+                        <div class="c-tab__content">
+                            <h4>Правила транспортировки УФ- конструкций</h4>
+                            <ol>
+                                <ul>• - Температура воздуха не менее 10 градусов.</ul>
+                                <ul>• - Грузоподъемность машины строго не более 1 тонны (это обеспечивает плавность хода).:</ul>
+                                <ul>• - Скорость передвижения не более 40 км/ч</ul>
+                                <ul>• - При переезде искусственных и естественных препятствий со скоростью не более 5 км/ч.</ul>
+                                <br>
+                                <ul><i>Несоблюдение данных правил значительно увеличивает вероятность разрушения изделия</i></ul>
+                            </ol>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-9">
-                    <div class="services-item mt-30">
-                        <div class="services-thumb">
-                            <img src="assets/images/services-7.jpg" alt="">
-                            <div class="icon">
-                                <i class="flaticon-layout"></i>
-                            </div>
-                        </div>
-                        <div class="services-content">
-                            <h4 class="title">Chemical research</h4>
-                            <p>There are many variations of passages of available but the have alteration in not avein that some form by injected.</p>
-                            <a href="single-service.html">Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-9">
-                    <div class="services-item mt-30">
-                        <div class="services-thumb">
-                            <img src="assets/images/services-8.jpg" alt="">
-                            <div class="icon">
-                                <i class="flaticon-under-construction-1"></i>
-                            </div>
-                        </div>
-                        <div class="services-content">
-                            <h4 class="title">Power energies</h4>
-                            <p>There are many variations of passages of available but the have alteration in not avein that some form by injected.</p>
-                            <a href="single-service.html">Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-9">
-                    <div class="services-item mt-30">
-                        <div class="services-thumb">
-                            <img src="assets/images/services-9.jpg" alt="">
-                            <div class="icon">
-                                <i class="flaticon-creative-design"></i>
-                            </div>
-                        </div>
-                        <div class="services-content">
-                            <h4 class="title">Mechanical engineering</h4>
-                            <p>There are many variations of passages of available but the have alteration in not avein that some form by injected.</p>
-                            <a href="single-service.html">Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-9">
-                    <div class="services-item mt-30">
-                        <div class="services-thumb">
-                            <img src="assets/images/services-10.jpg" alt="">
-                            <div class="icon">
-                                <i class="flaticon-factory"></i>
-                            </div>
-                        </div>
-                        <div class="services-content">
-                            <h4 class="title">Bridge construction</h4>
-                            <p>There are many variations of passages of available but the have alteration in not avein that some form by injected.</p>
-                            <a href="single-service.html">Read More</a>
+                    <div class="c-tab">
+                        <div class="c-tab__content">
+                            <h4>Договор доставки</h4>
+                            <ol>
+                                <ul>1.1 Дата доставки назначается клиенту в соответствии с тарифной сеткой, оплаченной клиентом. О дате доставки ЗАКАЗЧИК уведомляется дополнительно (за сутки до планируемой даты доставки).</ul>
+                                <ul>1.2 ИСПОЛНИТЕЛЬ несёт ответственность за механические повреждения заказа до его передачи ЗАКАЗЧИКУ.</ul>
+                                <ul>1.3 При доставке, подъёме изделий необходимо личное присутствие ЗАКАЗЧИКА, либо лица, уполномоченного ЗАКАЗЧИКОМ.</ul>
+                                <ul>1.4 ЗАКАЗЧИК обязан обеспечить беспрепятственный доступ транспортных средств, осуществляющих доставку Изделий, для разгрузки не далее 10 метров от места разгрузки, в случае платной стоянки и иных обстоятельств, возлагающих на ИСПОЛНИТЕЛЯ дополнительные расходы, такие расходы незамедлительно оплачиваются ЗАКАЗЧИКОМ в объеме 100%.</ul>
+                            </ol>
+                            <br>
+                            <a href="delivery_contract.html" target="_blank">Читать далее</a>
                         </div>
                     </div>
                 </div>
             </div>
+
+            <div class="o-section">
+<!--                <div id="github-icons"></div>-->
+            </div>
         </div>
-    </section>
-    
+    </main>
+
+
     <!--====== INDUSTRI SERVICES PART ENDS ======-->
 
     <!--====== FOOTER PART START ======-->
@@ -445,6 +681,30 @@
     
     <!--====== Main js ======-->
     <script src="assets/js/main.js"></script>
+
+    <!--====== Main js ======-->
+    <script src="assets/js/tabs.js"></script>
+    <script>
+        var myTabs = tabs({
+            el: '#tabs',
+            tabNavigationLinks: '.c-tabs-nav__link',
+            tabContentContainers: '.c-tab'
+        });
+
+        myTabs.init();
+    </script>
+
+
+    <script src="assets/js/tab.js"></script>
+    <script>
+        var myTabs = tab({
+            el: '#tab',
+            tabNavigationLinks: '.c-tabs-nav__link',
+            tabContentContainers: '.c-tab'
+        });
+
+        myTabs.init();
+    </script>
 
 </body>
 
